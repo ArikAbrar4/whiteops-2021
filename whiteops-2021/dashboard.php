@@ -83,7 +83,119 @@ extract($_REQUEST);
     <!--Section: Content-->
   </div>
   <!-- Card -->
+<div class="container mt-5 px-5 pt-5 pb-5 mb-5 py-5 z-depth-1">
 
+<div class="card">
+<!-- Card image -->
+<div class="view overlay">
+  <img style="width:1100px; height:500px" class="card-img-top" src="img/c1.jpg"
+    alt="Card image cap">
+  <a href="#!">
+    <div class="mask rgba-white-slight"></div>
+  </a>
+</div>
+<!-- Card content -->
+<div class="card-body">
+
+  <!-- Title -->
+  <h3 class="card-title"><?php echo $result['course1']; ?></h3>
+  <!-- Text -->
+  <h4 class="card-text"><?php echo $result['section1']; ?></h4>
+  <!-- Button -->
+  <a href="#" class="btn btn-primary">More</a>
+</div>
+<div class="card">
+<!-- Card image -->
+<div class="view overlay">
+  <img style="width:1100px; height:500px" class="card-img-top" src="img/c2.jpg"
+    alt="Card image cap">
+  <a href="#!">
+    <div class="mask rgba-white-slight"></div>
+  </a>
+</div>
+<!-- Card content -->
+<div class="card-body">
+  <!-- Title -->
+  <h3 class="card-title"><?php echo $result['course2']; ?></h3>
+  <!-- Text -->
+  <h4 class="card-text"><?php echo $result['section2']; ?></h4>
+  <!-- Button -->
+  <a href="#" class="btn btn-primary">More</a>
+</div>
+<div class="card">
+<!-- Card image -->
+<div class="view overlay">
+  <img style="width:1100px; height:500px" class="card-img-top" src="img/c3.jpg"
+    alt="Card image cap">
+  <a href="#!">
+    <div class="mask rgba-white-slight"></div>
+  </a>
+</div>
+<!-- Card content -->
+<div class="card-body">
+  <!-- Title -->
+  <h3 class="card-title"><?php echo $result['course3']; ?></h3>
+  <!-- Text -->
+  <h4 class="card-text"><?php echo $result['section3']; ?></h4>
+  <!-- Button -->
+  <a href="#" class="btn btn-primary">More</a>
+</div>
+<div class="card">
+<!-- Card image -->
+<div class="view overlay">
+  <img style="width:1100px; height:500px" class="card-img-top" src="img/c4.jpg"
+    alt="Card image cap">
+  <a href="#!">
+    <div class="mask rgba-white-slight"></div>
+  </a>
+</div>
+<!-- Card content -->
+<div class="card-body">
+  <!-- Title -->
+  <h3 class="card-title"><?php echo $result['course4']; ?></h3>
+  <!-- Text -->
+  <h4 class="card-text"><?php echo $result['section4']; ?></h4>
+  <!-- Button -->
+  <a href="#" class="btn btn-primary">More</a>
+</div>
+<div class="card">
+<!-- Card image -->
+<div class="view overlay">
+  <img style="width:1100px; height:500px" class="card-img-top" src="img/c5.jpg"
+    alt="Card image cap">
+  <a href="#!">
+    <div class="mask rgba-white-slight"></div>
+  </a>
+</div>
+<!-- Card content -->
+<div class="card-body">
+  <!-- Title -->
+  <h3 class="card-title"><?php echo $result['course5']; ?></h3>
+  <!-- Text -->
+  <h4 class="card-text"><?php echo $result['section5']; ?></h4>
+  <!-- Button -->
+  <a href="#" class="btn btn-primary">More</a>
+</div>
+<div class="card">
+<!-- Card image -->
+<div class="view overlay">
+  <img style="width:1100px; height:500px" class="card-img-top" src="img/c6.jpg"
+    alt="Card image cap">
+  <a href="#!">
+    <div class="mask rgba-white-slight"></div>
+  </a>
+</div>
+<!-- Card content -->
+<div class="card-body">
+
+  <!-- Title -->
+  <h3 class="card-title"><?php echo $result['course6']; ?></h3>
+  <!-- Text -->
+  <h4 class="card-text"><?php echo $result['section6']; ?></h4>
+  <!-- Button -->
+  <a href="#" class="btn btn-primary">More</a>
+</div>
+</div>
 <!-- Card -->
 </div>
 </div>

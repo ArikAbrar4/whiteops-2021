@@ -47,21 +47,21 @@ extract($_REQUEST);
       <div class="card-body">
         <h5 class="card-title">Class Venue</h5>
         <p class="card-text">Finding class venue with dynamic maps</p>
-        <a href="#" class="btn btn-dark">Update</a>
+        <a href="classvenue.php" class="btn btn-dark">Update</a>
       </div>
     </div>
     <div class="card  bg-light">
       <div class="card-body">
         <h5 class="card-title">Class Schedular</h5>
         <p class="card-text">Manage and make real time class schedule</p>
-        <a href="#" class="btn btn-dark">Update</a>
+        <a href="schedular.php" class="btn btn-dark">Update</a>
       </div>
     </div>
     <div class="card  bg-light">
       <div class="card-body">
         <h5 class="card-title">Lecturer Information</h5>
         <p class="card-text">Finding all the lecturers office, phone and email all at one place!</p>
-        <a href="#" class="btn btn-dark">Update</a>
+        <a href="lecturer.php" class="btn btn-dark">Update</a>
     </div>
   </div>
 </div>
