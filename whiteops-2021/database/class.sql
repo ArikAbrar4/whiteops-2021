@@ -70,7 +70,7 @@ INSERT INTO `class_venue` (`id`, `cno`, `courses`, `venue`, `floor`, `img`) VALU
 (8, 8, 'Professional Academic English-29', 'BK 6', 1, 'peng--29.gif'),
 (9, 9, 'Arabic Language-10', 'BK 2', 1, 'malay-40.gif'),
 (10, 10, 'Real Time Software Engineering-3', 'MPK2', 5, 'rse-3.gif'),
-(11, 11, 'Digital logic-1', 'BK 3', 1, 'dl-1.gif');
+(11, 11, 'Digital logic-1', 'BK 3', 1, 'dl-1.gif'),
 (12, 12, 'Professional Skill Certificate- 52', 'BK 3', 1, 'dl-1.gif');
 
 -- --------------------------------------------------------
@@ -139,7 +139,7 @@ CREATE TABLE `create_account` (
 --
 
 INSERT INTO `create_account` (`id`, `name`, `utmid`, `password`, `course1`, `course2`, `course3`, `course4`, `course5`, `course6`, `section1`, `section2`, `section3`, `section4`, `section5`, `section6`, `lecturer1`, `lecturer2`, `lecturer3`, `lecturer4`, `lecturer5`, `lecturer6`) VALUES
-(4, 'Arik', 'arik1999', '12345678', 'Application Development-2', 'Software Design and Architecture-2', 'Internet Programming-2', 'Data Structure and Algorithm-10', 'Arabic Language-10', 'Professional Skill Certificate-1', 'Section 1', 'Section 2', 'Section 7', 'Section 8', 'Section 47', 'Section 1', 'Dr. Ahmad Fadhil Bin Yusof', 'Dr. Radziah Binti Mohamad', 'Dr Haza Nuzly Abdul Hamed', 'Dr Mohd Yazid Idris', 'Dr. Ali', 'Dr Mahyuddin Arsat'),
+(4, 'Arik', 'arik1999', '12345678', 'Application Development-2', 'Software Design and Architecture-2', 'Internet Programming-2', 'Data Structure and Algorithm-10', 'Arabic Language-10', 'Professional Skill Certificate-1', 'Section 1', 'Section 2', 'Section 7', 'Section 8', 'Section 47', 'Section 1', 'Assoc. Prof. Dr. Hishammuddin Bin Asmuni@Hasmuni', 'Dr Wan Mohd Nasir Wan Kadir', 'Dr Haza Nuzly Abdul Hamed', 'Dr Mohd Yazid Idris', 'Dr. Ali', 'Dr Mahyuddin Arsat'),
 (5, 'Yusuf', 'yusuf1999', '1234578', 'Application Development-1', 'Software Quality Assurence-6', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', '', 'Section 1', 'Section 6', 'Section 40', 'Section 8', 'Section 29', '', 'Dr. Ahmad Fadhil Bin Yusof', 'Dr. Nor Azizah binti Saadon', 'Dr. Mazura binti Mat Din', 'Dr Mohd Yazid Idris', 'Assoc. Prof. Dr. Roselina binti Salleh @ Sallehuddin', '');
 
 -- --------------------------------------------------------
