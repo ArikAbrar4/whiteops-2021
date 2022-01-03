@@ -38,7 +38,7 @@ CREATE TABLE `admin_account` (
 --
 
 INSERT INTO `admin_account` (`id`, `name`, `adminid`, `password`) VALUES
-(4, 'WhiteOps', 'khp53', '12345');
+(4, 'WhiteOps', 'whiteops', '12345678');
 
 -- --------------------------------------------------------
 
