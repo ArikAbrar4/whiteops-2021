@@ -119,20 +119,38 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div>
         </td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course2">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course3">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
                <option value = "2"><?php echo $result['course_o7'];?></option>
                <option value = "3"><?php echo $result['course_o8'];?></option>
                <option value = "4"><?php echo $result['course_o9'];?></option>
@@ -144,14 +162,26 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course5">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td>2</td>
@@ -169,20 +199,38 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div>
         </td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course2">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course3">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
                <option value = "2"><?php echo $result['course_o7'];?></option>
                <option value = "3"><?php echo $result['course_o8'];?></option>
                <option value = "4"><?php echo $result['course_o9'];?></option>
@@ -194,14 +242,26 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course5">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td>3</td>
@@ -219,20 +279,38 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div>
         </td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course2">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course3">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
                <option value = "2"><?php echo $result['course_o7'];?></option>
                <option value = "3"><?php echo $result['course_o8'];?></option>
                <option value = "4"><?php echo $result['course_o9'];?></option>
@@ -244,14 +322,26 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course5">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td>4</td>
@@ -269,20 +359,38 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div>
         </td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course2">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course3">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
                <option value = "2"><?php echo $result['course_o7'];?></option>
                <option value = "3"><?php echo $result['course_o8'];?></option>
                <option value = "4"><?php echo $result['course_o9'];?></option>
@@ -294,14 +402,26 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course5">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td>5</td>
@@ -319,20 +439,38 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div>
         </td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course2">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course3">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
                <option value = "2"><?php echo $result['course_o7'];?></option>
                <option value = "3"><?php echo $result['course_o8'];?></option>
                <option value = "4"><?php echo $result['course_o9'];?></option>
@@ -344,14 +482,26 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course5">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td>6</td>
@@ -379,20 +529,38 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div>
         </td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course2">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course3">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
                <option value = "2"><?php echo $result['course_o7'];?></option>
                <option value = "3"><?php echo $result['course_o8'];?></option>
                <option value = "4"><?php echo $result['course_o9'];?></option>
@@ -404,14 +572,26 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course5">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td>8</td>
@@ -429,20 +609,38 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div>
         </td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course2">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course3">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
                <option value = "2"><?php echo $result['course_o7'];?></option>
                <option value = "3"><?php echo $result['course_o8'];?></option>
                <option value = "4"><?php echo $result['course_o9'];?></option>
@@ -454,14 +652,26 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course5">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td>9</td>
@@ -479,20 +689,38 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div>
         </td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course2">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course3">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
                <option value = "2"><?php echo $result['course_o7'];?></option>
                <option value = "3"><?php echo $result['course_o8'];?></option>
                <option value = "4"><?php echo $result['course_o9'];?></option>
@@ -504,14 +732,26 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course5">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td>10</td>
@@ -529,20 +769,38 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div>
         </td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course2">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course3">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
                <option value = "2"><?php echo $result['course_o7'];?></option>
                <option value = "3"><?php echo $result['course_o8'];?></option>
                <option value = "4"><?php echo $result['course_o9'];?></option>
@@ -554,14 +812,26 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course5">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td>11</td>
@@ -579,20 +849,38 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div>
         </td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course2">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course3">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
                <option value = "2"><?php echo $result['course_o7'];?></option>
                <option value = "3"><?php echo $result['course_o8'];?></option>
                <option value = "4"><?php echo $result['course_o9'];?></option>
@@ -604,14 +892,26 @@ extract($_REQUEST);
                <option value = "2"><?php echo $result['course_o1'];?></option>
                <option value = "3"><?php echo $result['course_o2'];?></option>
                <option value = "4"><?php echo $result['course_o3'];?></option>
+               <option value = "2"><?php echo $result['course_o4'];?></option>
+               <option value = "3"><?php echo $result['course_o5'];?></option>
+               <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td> <div  class = "box">
              <select onchange="this.options[this.selectedIndex].setAttribute('selected','selected');" name="course5">
                <option value = "1"></option>
+               <option value = "2"><?php echo $result['course_o1'];?></option>
+               <option value = "3"><?php echo $result['course_o2'];?></option>
+               <option value = "4"><?php echo $result['course_o3'];?></option>
                <option value = "2"><?php echo $result['course_o4'];?></option>
                <option value = "3"><?php echo $result['course_o5'];?></option>
                <option value = "4"><?php echo $result['course_o6'];?></option>
+               <option value = "2"><?php echo $result['course_o7'];?></option>
+               <option value = "3"><?php echo $result['course_o8'];?></option>
+               <option value = "4"><?php echo $result['course_o9'];?></option>
              </select>
              </div></td>
         <td>12</td>

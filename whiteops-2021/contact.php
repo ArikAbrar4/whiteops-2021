@@ -89,7 +89,7 @@
 
         <p class="font-weight-bold my-3">E-mail</p>
 
-        <p class="text-muted">mahfuz@graduate.utm.my</p>
+        <p class="text-muted">khp4121@gmail.com</p>
 
     </div>
     <!--Grid column-->
