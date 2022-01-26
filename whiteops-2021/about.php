@@ -69,24 +69,24 @@
           <img src="img/developers/Artboard 5.png" style="width:220px; height:220px;" class="rounded z-depth-1" alt="dev avatar">
         </div>
         <div class="mx-4">
-          <h4 class="font-weight-bold mb-3">MD Karimul Hasan</h4>
-          <h6 class="font-weight-bold grey-text mb-3">Web Designer and Developer</h6>
-          <p class="grey-text">A17CS4022
-khp4121@gmail.com
-+601121058770</p>
+          <h4 class="font-weight-bold mb-3">Yusuf Abdullah Mahfuz</h4>
+          <h6 class="font-weight-bold grey-text mb-3">Lead Developer</h6>
+          <p class="grey-text">A19EC9031 
+          mahfuz@graduate.utm.my
+</p>
           <!-- Facebook-->
-          <a href="https://fb.com/khp53" class="p-2 fa-lg fb-ic">
+          <a href="" class="p-2 fa-lg fb-ic">
             <i class="fab fa-facebook-f"> </i>
           </a>
           <!-- instagram -->
-          <a href="https://instagram.com/khp53" class="p-2 fa-lg tw-ic">
+          <a href="" class="p-2 fa-lg tw-ic">
           <i class="fab fa-instagram"></i>
           </a>
           <!--behance -->
-          <a href="https://www.behance.net/karimulhasan" class="p-2 fa-lg behance-square">
+          <a href="" class="p-2 fa-lg behance-square">
           <i class="fab fa-behance-square"></i>
           </a>
-          <a href="https://youtube.com/canyouKHP" class="p-2 fa-lg yt-ic">
+          <a href="" class="p-2 fa-lg yt-ic">
             <i class="fab fa-youtube"> </i>
           </a>
         </div>
@@ -99,11 +99,11 @@ khp4121@gmail.com
           <img src="img/developers/Artboard 1.png" style="width:220px; height:220px;" class="rounded z-depth-1" alt="dev avatar">
         </div>
         <div class="mx-4">
-          <h4 class="font-weight-bold mb-3">Meshba-ul Hekam</h4>
-          <h6 class="font-weight-bold grey-text mb-3">Documentation Expert</h6>
-          <p class="grey-text">A17CS4035 
-mesba-1998@graduate.utm.my
-01160773957</p>
+          <h4 class="font-weight-bold mb-3">Md Mohtasim Abrar</h4>
+          <h6 class="font-weight-bold grey-text mb-3">Project Manager</h6>
+          <p class="grey-text">A19EC9028 
+arikbrar4@gmail.com
+</p>
           <!-- Facebook-->
           <a class="p-2 fa-lg fb-ic">
             <i class="fab fa-facebook-f"> </i>
@@ -128,11 +128,11 @@ mesba-1998@graduate.utm.my
     <img src="img/developers/Artboard 4.png" style="width:220px; height:220px;" class="rounded z-depth-1" alt="dev avatar">
   </div>
   <div class="mx-4">
-    <h4 class="font-weight-bold mb-3">John Matthew</h4>
-    <h6 class="font-weight-bold grey-text mb-3">Documentation Expert</h6>
-    <p class="grey-text">A17CS5069
-banayadjohn@gmail.com
-+60104201517</p>
+    <h4 class="font-weight-bold mb-3">Rezwanul Ashraf Ruddro</h4>
+    <h6 class="font-weight-bold grey-text mb-3">FrontEnd Developer</h6>
+    <p class="grey-text">A19EC4020
+    a.ruddro@graduate.utm.my
+</p>
     <!-- Facebook-->
     <a class="p-2 fa-lg fb-ic">
       <i class="fab fa-facebook-f"> </i>
@@ -151,11 +151,11 @@ banayadjohn@gmail.com
     <img src="img/developers/Artboard 2.png" style="width:220px; height:220px;" class="rounded z-depth-1" alt="dev avatar">
   </div>
   <div class="mx-4">
-    <h4 class="font-weight-bold mb-3">Yasser Ehab</h4>
-    <h6 class="font-weight-bold grey-text mb-3">Documentation Expert</h6>
-    <p class="grey-text">A17CS3013
-Emyasser@graduate.utm.my
-0187839458</p>
+    <h4 class="font-weight-bold mb-3">Rifadul Islam</h4>
+    <h6 class="font-weight-bold grey-text mb-3">Software Tester</h6>
+    <p class="grey-text">A18CS4050
+    rifadulislamsakib@gmail.com
+</p>
     <!-- Facebook-->
     <a class="p-2 fa-lg fb-ic">
       <i class="fab fa-facebook-f"> </i>
@@ -173,28 +173,7 @@ Emyasser@graduate.utm.my
 
     <div class="row text-center text-md-left">
 
-<!-- Grid column -->
-<div class="col-lg-6 col-md-12 mb-5 d-md-flex justify-content-between">
-  <div class="avatar mb-md-0 mb-4 mx-4">
-    <img src="img/developers/Artboard 3.png" style="width:220px; height:220px;" class="rounded z-depth-1" alt="dev avatar">
-  </div>
-  <div class="mx-4">
-    <h4 class="font-weight-bold mb-3">Md Ariful Islam</h4>
-    <h6 class="font-weight-bold grey-text mb-3">Documentation Expert</h6>
-    <p class="grey-text">A17CS4019
-jahorularif@gmail.com
-+601137655273</p>
-    <!-- Facebook-->
-    <a class="p-2 fa-lg fb-ic">
-      <i class="fab fa-facebook-f"> </i>
-    </a>
-    <!-- instagram -->
-    <a class="p-2 fa-lg tw-ic">
-      <i class="fab fa-instagram"> </i>
-    </a>
-  </div>
-</div>
-<!-- Grid column -->
+
 
 </div>
 
