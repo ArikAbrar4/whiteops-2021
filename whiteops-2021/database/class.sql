@@ -99,10 +99,14 @@ INSERT INTO `courses_offered` (`time`, `course_o1`, `course_o2`, `course_o3`, `c
 (2, 'Application Development-1', 'Software Quality Assurence-2', 'Computational Inteligence-7', 'Software Quality Assurence-6', 'English-2', 'Real Time Software Engineering-3', 'Web Programming-2', 'Software Enginnering-7', 'Malaysian Studies-2'),
 (3, 'Application Development-1', 'Software Quality Assurence-2', 'Computational Inteligence-7', 'Software Quality Assurence-6', 'Web Technology-8', 'Real Time Software Engineering-3', 'Web Programming-2', 'Software Enginnering-7', 'Malaysian Studies-2'),
 (4, 'Application Development-1', 'Advanced Academic English-47', 'Youth Development-1', 'Software Quality Assurence-6', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', 'Software Enginnering-7', 'English-2'),
-(6, 'Computational Inteligence-7', 'Advanced Academic English-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', '');
-
+(5, 'Computational Inteligence-7', 'Advanced Academic English-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(6, 'Artificial Intelligence-1', 'Internet Programming-2', 'Software Design & Architecture-7', 'Software Quality Assurence-5', 'English-12', 'Real Time Software Engineering-4', 'Web Programming-6', 'Software Enginnering-5', 'Malaysian Studies-3'),
 -- --------------------------------------------------------
-
+(8, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(9, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(10, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(11, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(12, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', '');
 --
 -- Table structure for table `create_account`
 --
@@ -137,8 +141,8 @@ CREATE TABLE `create_account` (
 --
 
 INSERT INTO `create_account` (`id`, `name`, `utmid`, `password`, `course1`, `course2`, `course3`, `course4`, `course5`, `course6`, `section1`, `section2`, `section3`, `section4`, `section5`, `section6`, `lecturer1`, `lecturer2`, `lecturer3`, `lecturer4`, `lecturer5`, `lecturer6`) VALUES
-(4, 'Arik', 'arik1998', '12345678', 'Application Development-1', 'Software Quality Assurence-2', 'Computational Inteligence-7', 'Web Technology-8', 'Advanced Academic English-47', 'Youth Development-1', 'Section 1', 'Section 2', 'Section 7', 'Section 8', 'Section 47', 'Section 1', 'Dr. Ahmad Fadhil Bin Yusof', 'Dr. Radziah Binti Mohamad', 'Dr Haza Nuzly Abdul Hamed', 'Dr Mohd Yazid Idris', 'Dr. Ali', 'Dr Mahyuddin Arsat'),
-(5, 'Yusuf', 'yusuf1997', '12345678', 'Application Development-1', 'Software Quality Assurence-6', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', '', 'Section 1', 'Section 6', 'Section 40', 'Section 8', 'Section 29', '', 'Dr. Ahmad Fadhil Bin Yusof', 'Dr. Nor Azizah binti Saadon', 'Dr. Mazura binti Mat Din', 'Dr Mohd Yazid Idris', 'Assoc. Prof. Dr. Roselina binti Salleh @ Sallehuddin', '');
+(4, 'Arik', 'arik1999', '12345678', 'Application Development-1', 'Software Quality Assurence-2', 'Computational Inteligence-7', 'Web Technology-8', 'Advanced Academic English-47', 'Youth Development-1', 'Section 1', 'Section 2', 'Section 7', 'Section 8', 'Section 47', 'Section 1', 'Dr. Ahmad Fadhil Bin Yusof', 'Dr. Radziah Binti Mohamad', 'Dr Haza Nuzly Abdul Hamed', 'Dr Mohd Yazid Idris', 'Dr. Ali', 'Dr Mahyuddin Arsat'),
+(5, 'Yusuf', 'yusuf1999', '12345678', 'Application Development-1', 'Software Quality Assurence-6', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', '', 'Section 1', 'Section 6', 'Section 40', 'Section 8', 'Section 29', '', 'Dr. Ahmad Fadhil Bin Yusof', 'Dr. Nor Azizah binti Saadon', 'Dr. Mazura binti Mat Din', 'Dr Mohd Yazid Idris', 'Assoc. Prof. Dr. Roselina binti Salleh @ Sallehuddin', '');
 
 -- --------------------------------------------------------
 
@@ -172,11 +176,91 @@ INSERT INTO `lecturer_info` (`id`, `lno`, `lecturer_name`, `phone`, `email`, `of
 (10, 10, 'Dr. Mazura binti Mat Din', '07-5532370', 'mazura@utm.my', 'School of Computing, UTM', 'drmazura.jpg'),
 (11, 11, 'Dr. Mohd Foâ€™ad bin Rohani', '07-5538771', 'foad@utm.my', 'School of Computing, UTM', 'drfoad.jpg');
 
+CREATE TABLE `firstyearcourse` (
+  `time` int(11) NOT NULL,
+  `course_o1` char(100) NOT NULL,
+  `course_o2` char(100) NOT NULL,
+  `course_o3` char(100) NOT NULL,
+  `course_o4` char(100) NOT NULL,
+  `course_o5` char(100) NOT NULL,
+  `course_o6` char(100) NOT NULL,
+  `course_o7` char(100) NOT NULL,
+  `course_o8` char(100) NOT NULL,
+  `course_o9` char(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 --
+INSERT INTO `firstyearcourse` (`time`, `course_o1`, `course_o2`, `course_o3`, `course_o4`, `course_o5`, `course_o6`, `course_o7`, `course_o8`, `course_o9`) VALUES
+(2, 'Discrete Structure-1', 'Digital Logic-2', 'Computational Inteligence-7', 'Software Quality Assurence-6', 'English-2', 'Real Time Software Engineering-3', 'Web Programming-2', 'Software Enginnering-7', 'Malaysian Studies-2'),
+(3, 'Discrete Structure-1', 'Digital Logic-2', 'Computational Inteligence-7', 'Software Quality Assurence-6', 'Web Technology-8', 'Real Time Software Engineering-3', 'Web Programming-2', 'Software Enginnering-7', 'Malaysian Studies-2'),
+(4, 'Programming Technique I-1', 'Graduate Success Attributes-47 -47', 'Youth Development-1', 'Software Quality Assurence-6', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', 'Software Enginnering-7', 'English-2'),
+(5, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(6, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(8, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(9, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(10, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(11, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(12, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', '');
+CREATE TABLE `secondyearcourse` (
+  `time` int(11) NOT NULL,
+  `course_o1` char(100) NOT NULL,
+  `course_o2` char(100) NOT NULL,
+  `course_o3` char(100) NOT NULL,
+  `course_o4` char(100) NOT NULL,
+  `course_o5` char(100) NOT NULL,
+  `course_o6` char(100) NOT NULL,
+  `course_o7` char(100) NOT NULL,
+  `course_o8` char(100) NOT NULL,
+  `course_o9` char(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `secondyearcourse` (`time`, `course_o1`, `course_o2`, `course_o3`, `course_o4`, `course_o5`, `course_o6`, `course_o7`, `course_o8`, `course_o9`) VALUES
+(2, 'Discrete Structure-1', 'Digital Logic-2', 'Computational Inteligence-7', 'Software Quality Assurence-6', 'English-2', 'Real Time Software Engineering-3', 'Web Programming-2', 'Software Enginnering-7', 'Malaysian Studies-2'),
+(3, 'Discrete Structure-1', 'Digital Logic-2', 'Computational Inteligence-7', 'Software Quality Assurence-6', 'Web Technology-8', 'Real Time Software Engineering-3', 'Web Programming-2', 'Software Enginnering-7', 'Malaysian Studies-2'),
+(4, 'Programming Technique I-1', 'Graduate Success Attributes-47 -47', 'Youth Development-1', 'Software Quality Assurence-6', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', 'Software Enginnering-7', 'English-2'),
+(5, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(6, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(8, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(9, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(10, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(11, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(12, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', '');
+
+
+CREATE TABLE `fourthyearcourse` (
+  `time` int(11) NOT NULL,
+  `course_o1` char(100) NOT NULL,
+  `course_o2` char(100) NOT NULL,
+  `course_o3` char(100) NOT NULL,
+  `course_o4` char(100) NOT NULL,
+  `course_o5` char(100) NOT NULL,
+  `course_o6` char(100) NOT NULL,
+  `course_o7` char(100) NOT NULL,
+  `course_o8` char(100) NOT NULL,
+  `course_o9` char(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 -- Indexes for dumped tables
+
+INSERT INTO `fourthyearcourse` (`time`, `course_o1`, `course_o2`, `course_o3`, `course_o4`, `course_o5`, `course_o6`, `course_o7`, `course_o8`, `course_o9`) VALUES
+(2, 'Discrete Structure-1', 'Digital Logic-2', 'Computational Inteligence-7', 'Software Quality Assurence-6', 'English-2', 'Real Time Software Engineering-3', 'Web Programming-2', 'Software Enginnering-7', 'Malaysian Studies-2'),
+(3, 'Discrete Structure-1', 'Digital Logic-2', 'Computational Inteligence-7', 'Software Quality Assurence-6', 'Web Technology-8', 'Real Time Software Engineering-3', 'Web Programming-2', 'Software Enginnering-7', 'Malaysian Studies-2'),
+(4, 'Programming Technique I-1', 'Graduate Success Attributes-47 -47', 'Youth Development-1', 'Software Quality Assurence-6', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', 'Software Enginnering-7', 'English-2'),
+(5, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(6, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(8, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(9, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(10, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(11, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', ''),
+(12, 'Programming Technique I-7', 'Graduate Success Attributes-47', 'Software Quality Assurence-2', 'Malay Language-40', 'Web Technology-8', 'Professional Academic English-29', 'Digital Logic-1', '', '');
+--
+ALTER TABLE `secondyearcourse`
+  MODIFY `time` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+ALTER TABLE `firstyearcourse`
+  MODIFY `time` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
 
---
+ALTER TABLE `fourthyearcourse`
+  MODIFY `time` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
 -- Indexes for table `admin_account`
 --
 ALTER TABLE `admin_account`
