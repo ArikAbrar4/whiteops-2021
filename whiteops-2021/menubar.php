@@ -139,16 +139,16 @@ error_reporting(1);
         <div class="col-md-6 d-flex justify-content-end">
       <ul class="list-unstyled d-flex mb-0">
         <li>
-          <a href="https://fb.com/khp53" class="mr-3" role="button"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://kl.utm.my/" class="mr-3" role="button"><i class="fab fa-facebook-f"></i></a>
         </li>
         <li>
           <a href="https://twitter.com/utm_my" class="mr-3" role="button"><i class="fab fa-twitter"></i></a>
         </li>
         <li>
-          <a href="https://instagram.com/khp53" class="mr-3" role="button"><i class="fab fa-instagram"></i></a>
+          <a href="" class="mr-3" role="button"><i class="fab fa-instagram"></i></a>
         </li>
         <li>
-          <a href="https://youtube.com/canyouKHP" class="mr-3" role="button"><i class="fab fa-youtube"></i></a>
+          <a href="" class="mr-3" role="button"><i class="fab fa-youtube"></i></a>
         </li>
       </ul>
     </div>

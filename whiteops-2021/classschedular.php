@@ -86,7 +86,7 @@ extract($_REQUEST);
                 <h4><b>Email: </b>example@graduate.utm.my&ensp;</h4>
             </td>
             <td>
-                <h4><b>&ensp;Semester: </b>5/8</h4>
+                
             </td>
           </tr>
         </table>

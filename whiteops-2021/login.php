@@ -102,7 +102,7 @@ if(isset($login))
 
     <p style="background-color:#fafafa; height:80px; padding-top:15px; font-weight:bold; font-size:40px; color:#54002a;" class="h4 mb-4 text-center animated fadeIn slow">Log in</p>
     <?php echo @$error; ?>
-    <input type="text" id="materialLoginFormEmail" name="utmid" class="form-control mb-4 animated fadeIn slower" placeholder="E-mail">
+    <input type="text" id="materialLoginFormEmail" name="utmid" class="form-control mb-4 animated fadeIn slower" placeholder="Matric">
 
     <input type="password" id="materialLoginFormPassword" name="pass" class="form-control mb-4 animated fadeIn slower" placeholder="Password">
 
